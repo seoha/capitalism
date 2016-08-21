@@ -7,6 +7,13 @@ const remove_repetition =  function rr(xs,h=xs.shift()){ // remove repetition fr
 const winbid = xs => Math.max(...remove_repetition(xs)); // winbid considering overlaps
 const winner = xs => xs.indexOf(winbid([...xs])); // winner considering overlaps
 const prize  = (xs,g=0,m = money_pile) => xs.reduce((memo,x)=>(memo+x+m),g);
+const bankroll = function r(seed){
+  return function(bet){
+    if (seed - bankroll<0) return false;
+    else return r(seed-bankroll);
+  }
+}
+
 
 module.exports = {
   remove_repetition : remove_repetition,
