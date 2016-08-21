@@ -1,0 +1,23 @@
+{
+  "name": "capitalism",
+  "version": "0.0.1",
+  "description": "coding game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/seoha/capitalism.git"
+  },
+  "keywords": [
+    "AI",
+    "Game"
+  ],
+  "author": "seoha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seoha/capitalism/issues"
+  },
+  "homepage": "https://github.com/seoha/capitalism#readme"
+}
