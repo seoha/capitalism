@@ -1,3 +1,4 @@
+'use strict';
 const f = require('./functions.js');
 class Player{
   constructor(){

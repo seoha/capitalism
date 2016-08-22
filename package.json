@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/seoha/capitalism/issues"
   },
-  "homepage": "https://github.com/seoha/capitalism#readme"
+  "homepage": "https://github.com/seoha/capitalism#readme",
+  "devDependencies": {
+    "jasmine": "^2.4.1"
+  }
 }
